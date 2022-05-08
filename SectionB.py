@@ -1,4 +1,4 @@
-#%%
+
 import pandas as pd
 import seaborn as sns
 from sklearn.model_selection import train_test_split
@@ -93,9 +93,3 @@ print(' ')
 print("Precision Achieved:",round(metrics.precision_score(y_test, pred[:,1])*100,2),'%')
 print(' ')
 print("Recall Achieved:",round(metrics.recall_score(y_test, pred[:,1])*100,2),'%')
-
-
-
-
-
-# %%

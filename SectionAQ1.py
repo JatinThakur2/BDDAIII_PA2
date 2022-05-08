@@ -1,4 +1,4 @@
-#%%
+
 import pandas as pd
 from pyspark.ml.linalg import Vectors
 from pyspark.ml.stat import Correlation
@@ -13,4 +13,3 @@ print(spark.sql("select * from df order by DepDelay desc limit 5").show())
 
 
 
-# %%
